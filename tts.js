@@ -15,10 +15,10 @@ const SETTINGS  = {
 
 // Orígenes permitidos — agrega tu dominio de Vercel y cualquier dominio custom
 const ALLOWED_ORIGINS = [
-  'https://suenos-inmobiliarios.vercel.app',   // ← reemplaza con tu dominio Vercel
-  'https://www.suenosinmobiliarios.com',       // ← tu dominio custom (si tienes)
-  'http://localhost:3000',                      // para desarrollo local
-  'http://127.0.0.1:5500'                       // Live Server VS Code
+  'https://adminmobiliaria.vercel.app',        // ← dominio Vercel de ADMINMOBILIARIA
+  'https://www.suenosinmobiliarios.com',        // ← dominio custom (agrégalo si tienes)
+  'http://localhost:3000',                       // desarrollo local
+  'http://127.0.0.1:5500'                        // Live Server VS Code
 ];
 
 export default async function handler(req) {
@@ -96,4 +96,3 @@ export default async function handler(req) {
     }
   });
 }
-
